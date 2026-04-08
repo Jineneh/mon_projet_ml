@@ -6,7 +6,7 @@ data/
 output/
 tests/
 ## Auteur
-Your Name
+Jinene Hamrouni
 ## Version Python
 Compatible avec Python 3.10.
 ## Description
