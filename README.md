@@ -40,21 +40,6 @@ Ce travail a été réalisé de manière autonome, en appliquant une démarche d
 
 ##  Architecture du projet
 Le projet est organisé de manière modulaire afin de séparer les responsabilités et faciliter la maintenance, l’évolution et la lisibilité du code.
-mon_projet_ml/
-├── src/
-│ ├── loaders/ # Chargement des données (CSV, JSON)
-│ ├── processors/ # Nettoyage et prétraitement
-│ ├── translators/ # Traduction via HuggingFace
-│ ├── evaluators/ # Calcul du score BLEU
-│ ├── orchestrator/ # Pipeline principal
-│ ├── config.py # Configuration
-│ └── main.py # Point d’entrée
-├── data/ # Données d’entrée
-├── output/ # Résultats générés
-├── tests/ # Tests unitaires
-├── .github/workflows/ # CI/CD
-├── requirements.txt
-└── pyproject.toml
 
 
 ---
