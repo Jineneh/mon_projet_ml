@@ -39,6 +39,7 @@ Ce travail a été réalisé de manière autonome, en appliquant une démarche d
 ---
 
 ##  Architecture du projet
+Le projet est organisé de manière modulaire afin de séparer les responsabilités et faciliter la maintenance, l’évolution et la lisibilité du code.
 mon_projet_ml/
 ├── src/
 │ ├── loaders/ # Chargement des données (CSV, JSON)
